@@ -1,0 +1,122 @@
+<!--default styling for the webpage-->
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 18px;
+    color: #2D3748;
+}
+
+header{
+    background-color: #3C8527;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / 3;
+    grid-row: 1;
+    flex-direction: column;
+}
+header h1{
+    font-size: 39px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin: 0;
+}
+header h3{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', Arial, sans-serif; 
+    margin: 0;
+}
+img[alt="picture of self"]{
+    border-radius: 25%;
+    border: 5px solid #e2e7e2F0;
+}
+main{
+    grid-column: 2;
+    grid-row: 2;
+    padding: 30px;
+}
+
+main h2{
+    font-size: 34px;
+    color: #28651C;
+}
+.container{
+    display: grid;
+    grid-template-columns: 265px 1fr;
+    grid-template-rows: auto 1fr auto;
+}
+
+p{
+    font-size: 18px;
+    color: #2D3748;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+aside{
+    grid-column: 1;
+    grid-row: 2;
+    padding: 30px 16px; 
+}
+
+aside h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+aside h3:first-of-type {
+    color: #333322;
+    background-color: #E2E8F0;
+    padding: 10px;
+   
+}
+aside h3:nth-of-type(2),
+aside h3:nth-of-type(3){
+    color: #28651C;
+}
+aside a {
+    color: #2879B8;
+}
+
+article h2 {
+    color: #28651C;
+    font-size: 34px;
+    font-family: 'Arial', sans-serif;
+}
+article h3{
+    color: #667267;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+article p{
+    font-size: 18px;
+    color: #2D3748;
+}
+
+article img[alt="Minecraft home"]{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    float: left;
+    border: 2px solid #28651C;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+article img[alt="Minecraft materials"]{
+    width: 300px;
+    height: 260px;
+    object-fit: cover;
+    float: right;
+    border: 2px solid #28651C;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+footer{
+    background-color: #28651C;
+    color: #FFFFFF;
+    font-size: 34px;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / 3;
+    grid-row: 3;
+}
