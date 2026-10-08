@@ -1,4 +1,4 @@
-<!--default styling for the webpage-->
+/*default styling for the page*/
 body{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
     font-size: 18px;
@@ -14,6 +14,7 @@ header{
     grid-column: 1 / 3;
     grid-row: 1;
     flex-direction: column;
+    gap: 5px;
 }
 header h1{
     font-size: 39px;
@@ -29,6 +30,7 @@ img[alt="picture of self"]{
     border-radius: 25%;
     border: 5px solid #e2e7e2F0;
 }
+
 main{
     grid-column: 2;
     grid-row: 2;
@@ -50,25 +52,37 @@ p{
     color: #2D3748;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 }
+
+/* for list in blog 2*/
+ul {
+    font-size: 18px;
+    color: #2D3748;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
 aside{
+    
     grid-column: 1;
     grid-row: 2;
     padding: 30px 16px; 
 }
 
-aside h3 {
+/* styling for about*/
+aside h3:first-of-type(1) {
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-aside h3:first-of-type {
     color: #333322;
     background-color: #E2E8F0;
     padding: 10px;
    
 }
+
+/*for social media and archives*/
 aside h3:nth-of-type(2),
 aside h3:nth-of-type(3){
     color: #28651C;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+/*colour for social media links and archive links*/
 aside a {
     color: #2879B8;
 }
